@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>RitmStyle</title>
+</head>
+<body>
+   <div class="wrapper">
+       <header id="header">
+               <a href="#top" class="header-img"><img src="./images/Logo.svg" alt="logo"></a>
+               <nav id="nav-bar">
+                    <ul class="menu__list">
+                        <li class="nav-link">
+                            <a href="#top">Главная</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#sessions-link">Сеансы</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#reviews-link">Отзывы</a>
+                        </li>
+                    </ul>
+               </nav>
+               <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+                   <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                   <input type="submit" id="submit" class="btn" value="Записаться на сеанс" >
+               </form>
+       </header>
+       <main class="main">
+           <section class="main-img">
+              <div class="main-text">
+                  <img src="./images/left-leaf.svg" alt="leaf">
+                   <h3 class="main-line"> Укрепление здоровья</h3>
+                   <img src="./images/right-leaf.svg" alt="leaf">
+                   <h1>Акватерапия RitmStyle</h1>
+              </div>
+            </section>
+            <section class="assortment-text">
+                <img src="/images/left-leaf-blue.svg" alt="leaf">
+                <h2 class="assortment-line" id="sessions-link">Сеансы RitmStyle</h2>
+                <img src="/images/right-leaf-blue.svg" alt="leaf">
+            </section>
+
+            <section class="assortment-foto">
+                <div class="assortment-foto_text big-item"><p>Стандартный RitmStyle</p></div>
+                <div class="assortment-foto_text"><p>RitmStyle для пар</p></div>
+                <div class="assortment-foto_text"><p>RitmStyle с полным <br> погружением под воду</p></div>
+                <div class="assortment-foto_text"><p>RitmStyle для беременных</p></div>
+                <div class="assortment-foto_text"><p>RitmStyle + красочная <br> подводная фотосессия</p></div>
+            </section>
+
+            <div class="reviews">
+                <img src="/images/left-leaf-blue.svg" alt="leaf">
+                <h2 class="reviews-line" id="reviews-link">Отзывы</h2>
+                <img src="/images/right-leaf-blue.svg" alt="leaf">
+            </div>
+            <div class="video-reviews" id="video">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iwr40j8U_qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+       </main>
+       <footer class="footer">
+           <div class="footer-map"></div>
+           <div class="footer-address">
+               <div class="address-map">
+                   <p class="swimming">Бассейн WorkClass</p>
+                   <p>Невский 140</p>
+                   <p>м. Спасская</p>
+                   <p>Запись по договоренности</p>
+                   <button type="submit">Записаться на сеанс</button>
+               </div>
+               <div class="address-map">
+                <p class="swimming">Бассейн "На Гороховой"</p>
+                <p>Невский 140</p>
+                <p>м. Спасская</p>
+                <p>Запись по договоренности</p>
+                <button type="submit">Записаться на сеанс</button>
+               </div>
+           </div>
+           <div class="footer-bottom">
+               <div>© 2018-2022 RitmStyle</div>
+               <div>Сделано o-s-a.info</div>
+           </div>
+       </footer>
+   </div>
+</body>
+</html>
